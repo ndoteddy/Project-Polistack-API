@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
-    "lint": "node_modules/.bin/goodparts path/to/files/for/linting",
-    "test": "not yet added"
+    "lint": "node_modules/.bin/goodparts path/to/files/for/linting"
   },
   "author": "nando 2018",
   "license": "MIT",
