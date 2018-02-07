@@ -13,17 +13,14 @@ We plan to use Microservices (Service Oriented Architecture) - so all module
 will have less dependency and with React Component it makes system can be extend or reuse easily.
 Off course with API we can integrate it With Mobile apps as well. (Either native or ReactNative) 
 
-Current objective : Event Planner v0.0.3
+Current objective : Event Planner [API] v0.0.1
 
 You can use this repository and join with me to create a community.Sharing is caring.
 
-Wanna discuss or offer some opportunity ? Kindly Drop a message 
+Wanna discuss or collaborate together kindly Drop a message 
 
 e-mail : nando.teddy@gmail.com
 
-or 
-
-LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
 
 
 
@@ -59,7 +56,7 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
 2. Clone or Fork This repository
 
 
-    v0.0.3 - > https://github.com/ndoteddy/Project-Polistack-Web
+    v0.0.1 - > https://github.com/ndoteddy/Project-Polistack-API
     
 
     
