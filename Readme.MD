@@ -92,20 +92,6 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
 
 ## CurrentVersion
 
-0.0.3 - > Add Feature
-            
-            - Event Create -> Post API 
-            - Event List   -> Get  API
-            - Dashboard - * Ongoing
-          
-0.0.2 - > Framing and Component Extraction
-            
-            - Home Pages
-            - Event Pages
-            - Navigation Routing With React Router
-            - Linting - Code Climate - Dependency Config
-          
-
 0.0.1 - > Init
             
             - NPM Install
@@ -113,6 +99,8 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
             - Setup Bootstrap Layout
             - Setup Babel Transpiler With Webpack Hotloader
             - Init travis CLI - CI 
+            - Event Create -> Post API 
+            - Event List   -> Get  API
           
 
 
