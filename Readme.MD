@@ -1,7 +1,7 @@
 # Project Polistack
 
 
-[![HitCount](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-Web.git.svg)](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-Web.git) [![Build Status](https://travis-ci.org/ndoteddy/Project-Polistack-Web.svg?branch=master)](https://travis-ci.org/ndoteddy/Project-Polistack-Web) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-Web/issues) [![devDependency Status](https://david-dm.org/ndoteddy/Project-Polistack-Web.svg)](https://david-dm.org/ndoteddy/Project-Polistack-Web) [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-Web/oodparts "JavaScript The Good Parts") 
+[![HitCount](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git.svg)](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git) [![Build Status](https://travis-ci.org/ndoteddy/Project-Polistack-API.svg?branch=master)](https://travis-ci.org/ndoteddy/Project-Polistack-API) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-API/issues) [![devDependency Status](https://david-dm.org/ndoteddy/Project-Polistack-API.svg)](https://david-dm.org/ndoteddy/Project-Polistack-API) [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-API/goodparts "JavaScript The Good Parts") 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)  
 
 ## Background
@@ -59,7 +59,7 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
 2. Clone or Fork This repository
 
 
-    v0.0.3 - > https://github.com/ndoteddy/Project-Polistack-Web
+    v0.0.1 - > https://github.com/ndoteddy/Project-Polistack-API
     
 
     
@@ -90,21 +90,7 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
     Yohannes
     
 
-## CurrentVersion
-
-0.0.3 - > Add Feature
-            
-            - Event Create -> Post API 
-            - Event List   -> Get  API
-            - Dashboard - * Ongoing
-          
-0.0.2 - > Framing and Component Extraction
-            
-            - Home Pages
-            - Event Pages
-            - Navigation Routing With React Router
-            - Linting - Code Climate - Dependency Config
-          
+## CurrentVersion          
 
 0.0.1 - > Init
             
