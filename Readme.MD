@@ -98,6 +98,7 @@ e-mail : nando.teddy@gmail.com
             - Init travis CLI - CI 
             - Event Create -> Post API 
             - Event List   -> Get  API
+            - VCS Checkout
           
 
 
