@@ -48,7 +48,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-var routes = require('./api/routes/eventroutes'); //importing route
+var routes = require('./api/routes/mainroutes'); //importing route
 routes(app); //register the route
 
 
