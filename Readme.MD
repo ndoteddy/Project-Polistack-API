@@ -1,8 +1,8 @@
 # Project Polistack
 
 
-[![HitCount](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git.svg)](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git) [![Build Status](https://travis-ci.org/ndoteddy/Project-Polistack-API.svg?branch=master)](https://travis-ci.org/ndoteddy/Project-Polistack-API) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-API/issues) [![devDependency Status](https://david-dm.org/ndoteddy/Project-Polistack-API.svg)](https://david-dm.org/ndoteddy/Project-Polistack-API) [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-API/goodparts "JavaScript The Good Parts") 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)  
+[![HitCount](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git.svg)](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git) [![Build Status](https://travis-ci.org/ndoteddy/Project-Polistack-API.svg?branch=master)](https://travis-ci.org/ndoteddy/Project-Polistack-API) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-API/issues) [![devDependency Status](https://david-dm.org/ndoteddy/Project-Polistack-API.svg)](https://david-dm.org/ndoteddy/Project-Polistack-API) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
 
 ## Background
 Nowadays, to learn and stay sharp with current edge of technology is very challenging.
@@ -13,17 +13,15 @@ We plan to use Microservices (Service Oriented Architecture) - so all module
 will have less dependency and with React Component it makes system can be extend or reuse easily.
 Off course with API we can integrate it With Mobile apps as well. (Either native or ReactNative) 
 
-Current objective : Event Planner v0.0.3
+Current objective : **Event Planner API v0.0.2**
 
 You can use this repository and join with me to create a community.Sharing is caring.
 
-Wanna discuss or offer some opportunity ? Kindly Drop a message 
+Wanna discuss or collaborate together kindly Drop a message 
+
+author : nando teddy
 
 e-mail : nando.teddy@gmail.com
-
-or 
-
-LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
 
 
 
@@ -32,7 +30,6 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
 * [Prerequisite](#prerequisite)
 * [Contributing](#contributing)
 * [CurrentVersion](#currentversion)
-* [Collaborator](#collaborator)
 
 ## Objective
 
@@ -58,10 +55,7 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
     
 2. Clone or Fork This repository
 
-
-    v0.0.1 - > https://github.com/ndoteddy/Project-Polistack-API
-    
-
+        v0.0.2 - > https://github.com/ndoteddy/Project-Polistack-API
     
 3.  Npm package manager will auto download node module for u according a Json Package
      - clone this repository
@@ -82,23 +76,29 @@ LinkedIn :  https://www.linkedin.com/in/hernandoivanteddy/
     Commit your changes (git commit -am 'Add some feature')
     Push to the branch (git push origin my-new-feature)
     Create new Pull Request
+See [Contributing](CONTRIBUTING.md) and  List of our contributor here [Contributors](https://github.com/ndoteddy/Project-Polistack-API/graphs/contributors)
 
-    
-## Collaborator
-    Hernando Ivan Teddy
-    Agustinus Deddy
-    Yohannes
-    
 
 ## CurrentVersion          
 
-0.0.1 - > Init
+0.0.2 - > Add Scrapping Controller to Scrap  External Website Data (example: http://www.allconferences.com/)
+          
+            - Add "request" HTTP Package
+            - Add "cheerio" Package
+            - Setup Router For Scrapper External Website
+            - Extract to Json Response
+            - Add promise callback
+            
+
+0.0.1 - > Init Repo and Server Routing 
             
             - NPM Install
             - Dependencies
-            - Setup Bootstrap Layout
+            - Setup Express
             - Setup Babel Transpiler With Webpack Hotloader
-            - Init travis CLI - CI 
+            - Init travis CLI - CI
+            - Setup Mongo DB Connection Key
+             
           
 
 

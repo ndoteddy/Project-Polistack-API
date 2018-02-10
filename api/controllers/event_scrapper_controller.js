@@ -5,7 +5,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var app     = express();
 
-exports.list_event_scrapping = function(req,res) {
+exports.list_all_event_scrapping = function(req,res) {
 
     url = 'http://www.allconferences.com/search/index/Venue__country:Hong+Kong/Venue__city:Hong+Kong/Venue__name:Asia+World+Expo';
 
@@ -13,26 +13,26 @@ exports.list_event_scrapping = function(req,res) {
         if(!error){
             var $ = cheerio.load(html);
 
-            var eventTitle, venue, tag;
-            var json = { eventTitle : "", Venue : "", Tag : ""};
+            var eventTitle, venue, location;
+            var json = { event:[]};
 
-            $('.conferenceHead').filter(function(){
+
+
+            $('.conferenceHead').each(function(index, element){
+
                 var data = $(this);
                 console.log(data);
                 eventTitle = data.children().first().text();
-                venue = data.children(1).text();
-
-                json.eventTitle = eventTitle;
+                json.event.push({
+                    eventTitle: eventTitle
+                });
 
             })
 
-            $('.venue_info').filter(function(){
-                var data = $(this);
-
-                venue = data.children().first().text();
-                json.Venue = venue;
-                json.tag= tag;
-            })
+            // $('.venue_info').each(function(index, element) {
+            //     var venueInfo = $(this);
+            //     venue = venueInfo.children("a").text();
+            // })
 
 
         }
