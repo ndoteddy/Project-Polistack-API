@@ -29,8 +29,8 @@ app.use(function(req, res, next) {
 });
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-const url = 'mongodb://localhost/polistack';
-//const url = 'mongodb://'+process.env.DB_USER+':'+process.env.DB_PASS+process.env.DB_URL;
+//const url = 'mongodb://localhost/polistack';
+const url = 'mongodb://'+process.env.DB_USER+':'+process.env.DB_PASS+process.env.DB_URL;
 
 console.log(url);
 //====MONGOOSE CONNECT===//
