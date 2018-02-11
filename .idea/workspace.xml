@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d65dd9bf-bdfa-4093-ae62-27a174a4358c" name="Default" comment="v0.0.2 - fix main route comment">
+    <list default="true" id="d65dd9bf-bdfa-4093-ae62-27a174a4358c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/routes/mainroutes.js" afterPath="$PROJECT_DIR$/api/routes/mainroutes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -118,6 +117,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ndoteddy &lt;nando.teddy@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -264,7 +268,7 @@
       <workItem from="1517973202718" duration="282000" />
       <workItem from="1517973560205" duration="1349000" />
       <workItem from="1518264799945" duration="8216000" />
-      <workItem from="1518317002348" duration="112000" />
+      <workItem from="1518317002348" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="add travis deployment">
       <created>1517974224048</created>
@@ -308,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518272154526</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v0.0.2 - fix main route variable">
+      <created>1518317139174</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1518317139174</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22588000" />
+    <option name="totallyTimeSpent" value="22689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -359,7 +370,8 @@
     <MESSAGE value="branch v.0.0.2 - fix json test" />
     <MESSAGE value="fix travis yml" />
     <MESSAGE value="v0.0.2 - fix main route comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.0.2 - fix main route comment" />
+    <MESSAGE value="v0.0.2 - fix main route variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.2 - fix main route variable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
