@@ -12,37 +12,22 @@ exports.list_all_event_scrapping = function(req,res) {
     request(url, function(error, response, html){
         if(!error){
             var $ = cheerio.load(html);
-
             var eventTitle, venue, location;
             var json = { event:[]};
-
-
-
             $('.conferenceHead').each(function(index, element){
-
                 var data = $(this);
                 console.log(data);
                 eventTitle = data.children().first().text();
                 json.event.push({
                     eventTitle: eventTitle
                 });
-
             })
-
-            // $('.venue_info').each(function(index, element) {
-            //     var venueInfo = $(this);
-            //     venue = venueInfo.children("a").text();
-            // })
-
-
         }
         else
         {
             console.log(error);
         }
         res.json(json);
-
-
     }) ;
 };
 

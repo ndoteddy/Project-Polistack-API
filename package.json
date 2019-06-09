@@ -9,13 +9,13 @@
   "author": "nando 2018",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^1.14.12"
+    "nodemon": "^1.19.1"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "dotenv": "^5.0.0",
-    "express": "^4.16.2",
-    "mongoose": "^5.2.12",
-    "request": "^2.83.0"
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14",
+    "request": "^2.88.0"
   }
 }
