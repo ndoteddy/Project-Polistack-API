@@ -4,7 +4,9 @@
   "description": "api for polistack website - ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "nando 2018",
   "license": "MIT",
@@ -16,6 +18,8 @@
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.5.14",
-    "request": "^2.88.0"
-  }
+    "request": "^2.88.0",
+    "snyk": "^1.192.0"
+  },
+  "snyk": true
 }
