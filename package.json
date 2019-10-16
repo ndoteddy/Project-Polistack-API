@@ -15,7 +15,7 @@
     "cheerio": "^1.0.0-rc.2",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.5.14",
+    "mongoose": "^5.7.5",
     "request": "^2.88.0"
   }
 }
