@@ -1,7 +1,7 @@
 # Project Polistack
 
 
-[![HitCount](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git.svg)](http://hits.dwyl.io/ndoteddy/https://github.com/ndoteddy/Project-Polistack-API.git) [![Build Status](https://travis-ci.org/ndoteddy/Project-Polistack-API.svg?branch=master)](https://travis-ci.org/ndoteddy/Project-Polistack-API) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-API/issues) [![devDependency Status](https://david-dm.org/ndoteddy/Project-Polistack-API.svg)](https://david-dm.org/ndoteddy/Project-Polistack-API) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![Build Status](https://travis-ci.org/ndoteddy/Project-Polistack-API.svg?branch=master)](https://travis-ci.org/ndoteddy/Project-Polistack-API) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ndoteddy/Project-Polistack-API/issues) [![devDependency Status](https://david-dm.org/ndoteddy/Project-Polistack-API.svg)](https://david-dm.org/ndoteddy/Project-Polistack-API) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 
 ## Background
